@@ -1,0 +1,80 @@
+{
+  "profile_id": "sarvam_bulbul_shubh_v1",
+  "profile_name": "Sarvam Bulbul v4 Flash (Shubh Native Indian Voice)",
+  "version": "1.0.0",
+  "provider": "sarvam_ai",
+  "model": "bulbul:v4-flash",
+  "speaker": "shubh_enhi_ads",
+  "cloned_voice_id": null,
+  "language_code": "hi-IN",
+  "base_pace": 1.0,
+  "scene_pace_modifiers": {
+    "hook": 1.02,
+    "exposition": 1.0,
+    "science": 0.98,
+    "climax": 0.96,
+    "takeaway": 1.0
+  },
+  "pronunciation_dictionary": {
+    "Square-Cube Law": "वर्ग-घन का नियम",
+    "Square Cube Law": "वर्ग-घन का नियम",
+    "Colossal Giant": "विशालकाय टाइटन",
+    "The Science of Giants": "अटैक ऑन टाइटन",
+    "Wall Maria": "वॉल मारिया",
+    "Galileo Galilei": "गैलीलियो गैलीली",
+    "Galileo": "गैलीलियो",
+    "Anime": "एनिमे",
+    "Shorts": "शॉर्ट्स",
+    "Physics": "भौतिक विज्ञान",
+    "Science": "विज्ञान",
+    "Volume": "आयतन",
+    "Mass": "द्रव्यमान",
+    "Weight": "भार",
+    "Cross-sectional Area": "अनुप्रस्थ काट क्षेत्रफल",
+    "Surface Area": "सतह का क्षेत्रफल"
+  },
+  "normalization_rules": {
+    "expand_numerals": true,
+    "expand_units": true,
+    "normalize_danda": true,
+    "preserve_expressive_punctuation": true,
+    "compound_word_hyphenation": true
+  },
+  "sentence_chunking": {
+    "max_words_per_chunk": 16,
+    "max_chars_per_chunk": 120,
+    "clause_delimiters": [
+      "।",
+      "?",
+      "!",
+      ",",
+      "—",
+      "जबकि",
+      "लेकिन",
+      "क्योंकि",
+      "अर्थात",
+      "यानी"
+    ],
+    "comma_pause_ms": 180,
+    "sentence_pause_ms": 380,
+    "scene_transition_pause_ms": 450
+  },
+  "prosody_preferences": {
+    "warmth_bias": "high",
+    "cadence_style": "conversational_storyteller",
+    "micro_pause_insertion": true,
+    "target_wpm_range": [
+      140,
+      165
+    ]
+  },
+  "human_evaluation_history": [
+    {
+      "date": "2026-11-16",
+      "reviewer": "Creator Listening Audit",
+      "status": "VOICE_PREVIEW_PENDING_HUMAN_LISTENING",
+      "notes": "Bulbul v4 Flash generated all 18 benchmark samples and Colossal Giant 5-scene master narration. Acoustically verified 0 clipping. Awaiting creator human listening sign-off."
+    }
+  ],
+  "approval_status": "VOICE_PREVIEW_PENDING_HUMAN_LISTENING"
+}
