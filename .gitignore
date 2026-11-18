@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches and virtual environments
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+env/
+venv/
+ENV/
+
+# Sensitive environment variables and secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+token.json
+client_secret.json
+secrets/
+
+# Media and Production outputs
+output/videos/*
+output/thumbnails/*
+output/images/*
+output/audio/*
+output/final/*
+output/previews/*
+!output/videos/.gitkeep
+!output/thumbnails/.gitkeep
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
