@@ -1,0 +1,77 @@
+{
+  "storyboard_id": "sb_orch_test_01",
+  "title": "Chronobiology Science",
+  "topic": "Time Perception in Chronobiology",
+  "target_duration_seconds": 30.0,
+  "pause_budget_seconds": 2.0,
+  "total_estimated_seconds": 30.0,
+  "total_spoken_words": 26,
+  "hook": "Opening hook text",
+  "body": "Body narrative text",
+  "takeaway": "Takeaway reflection text",
+  "visual_consistency": {
+    "character_name": "Chronos Scientist",
+    "character_reference_image": null,
+    "facial_features": "Sharp focused eyes",
+    "hairstyle": "Spiky green-to-white gradient hair",
+    "clothing_and_attire": "Science tunic",
+    "color_palette": "Emerald green, futuristic grey",
+    "art_direction": "Modern cinematic high-contrast anime key visual, dramatic volumetric lighting, 8k resolution, vertical 9:16",
+    "negative_prompt": "distorted anatomy, extra limbs, deformed hands, missing fingers, low resolution, blurry, text, watermark, photorealistic face, 3d render",
+    "aspect_ratio": "9:16"
+  },
+  "scenes": [
+    {
+      "scene_number": 1,
+      "narration_hinglish": "Kya aapko lagta hai ki insaan hazaron saal tak deep sleep mein jaag sakta tha?",
+      "narration_english_meaning": "Do you think a human could stay awake in stasis for centuries?",
+      "camera_angle": "eye-level",
+      "framing": "medium-close-up",
+      "subject_placement": "center",
+      "image_prompt_positive": "Scientist in stasis chamber with energy field",
+      "image_prompt_negative": "",
+      "suggested_duration_seconds": 14.0,
+      "camera_movement": "slow_zoom_in",
+      "sound_effect_cue": "sfx_stone_crack"
+    },
+    {
+      "scene_number": 2,
+      "narration_hinglish": "Real neuroscience kehti hai ki rhythm consciousness ko lock karti hai.",
+      "narration_english_meaning": "Real neuroscience says internal rhythm locks consciousness.",
+      "camera_angle": "low-angle",
+      "framing": "close-up",
+      "subject_placement": "center",
+      "image_prompt_positive": "Neural synapses pulsing in brain",
+      "image_prompt_negative": "",
+      "suggested_duration_seconds": 14.0,
+      "camera_movement": "static_drift",
+      "sound_effect_cue": "sfx_electric_hum"
+    }
+  ],
+  "bgm_suggestion": {
+    "mood": "Tense and mysterious building into an uplifting scientific revelation",
+    "tempo": "Medium-fast, 115-125 BPM",
+    "instrumentation": "Sub-bass pulses, rhythmic ticking clock, rising electronic synth lead"
+  },
+  "scientific_claims": [
+    {
+      "claim": "Counting seconds activates the prefrontal cortex.",
+      "source_title": "Neuroscience Journal",
+      "source_type": "unverified_proposal",
+      "url": "https://doi.org/10.1016/sample",
+      "verification_status": "human_checked",
+      "is_verified": true,
+      "human_reviewer_notes": null
+    }
+  ],
+  "claims_pending_verification": [],
+  "has_unverified_claims": false,
+  "source_script_id": null,
+  "source_script_checksum": null,
+  "source_script_version": "1.0",
+  "source_narration_checksum": null,
+  "storyboard_narration_checksum": "4130233bab77cb508c85efd2201294705126be228ab7092feb8b195dc272440d",
+  "narration_fidelity_status": null,
+  "demarcation_warning": "CRITICAL: Anime mechanics are fictional canon. Real-world empirical science must be explicitly separated in presentation.",
+  "created_at": "2026-11-18T19:40:17.542455Z"
+}
