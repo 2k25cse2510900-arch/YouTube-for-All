@@ -3,11 +3,18 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Distribution / packaging build artifacts
+*.egg-info/
+build/
+dist/
+*.egg
+
 # Caches and virtual environments
 .pytest_cache/
 .coverage
 htmlcov/
 .venv/
+.venv_*/
 env/
 venv/
 ENV/
@@ -16,6 +23,9 @@ ENV/
 .env
 .env.local
 .env.*.local
+*.env
+!.env.example
+!default.env.example
 *.pem
 *.key
 token.json

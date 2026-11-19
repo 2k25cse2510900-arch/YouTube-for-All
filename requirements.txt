@@ -21,7 +21,7 @@ APScheduler==3.11.3
 
 # --- Networking, Resilience & Utilities ---
 requests==2.34.2
-tenacity==9.2.1
+tenacity==9.1.4
 
 # --- Terminal Formatting & UI ---
 rich==15.0.0
@@ -29,6 +29,7 @@ rich==15.0.0
 # --- Media & Image Processing Foundation ---
 pillow==13.0.0
 edge-tts==7.3.1
+gradio-client==2.7.2
 
 # --- Testing & Quality Assurance ---
 pytest==9.2.0
