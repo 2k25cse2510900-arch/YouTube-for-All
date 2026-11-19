@@ -3,7 +3,7 @@
 import hashlib
 from pathlib import Path
 import re
-from typing import List, Optional
+from typing import Any, List, Optional
 
 from src.audio_engine.bgm_library import BGMLibraryManager
 from src.audio_engine.models import BGMTrackMetadata

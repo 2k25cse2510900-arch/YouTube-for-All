@@ -2,7 +2,7 @@
 
 from pathlib import Path
 import subprocess
-from typing import Dict, List, Optional
+from typing import Any, Dict, List, Optional
 from src.anime_motion.image_to_video_provider import MotionClipMetadata
 from src.anime_motion.motion_planner import MotionStoryboardPlan
 from src.common.logger import setup_logger

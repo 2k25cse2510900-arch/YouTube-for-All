@@ -1,7 +1,7 @@
 """Strict Production Eligibility and Scientific Claim Verification Gate."""
 
 from pathlib import Path
-from typing import List, Optional
+from typing import Any, List, Optional
 
 from src.common.logger import setup_logger
 from src.image_engine.exceptions import (
